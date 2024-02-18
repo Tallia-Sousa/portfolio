@@ -6,7 +6,7 @@ body {
 }
 .estrutura{
 	text-align: right;
-	width: 79%;
+	width: 89%;
 	
 }
 
@@ -26,12 +26,16 @@ ul {
 li{
 	font-family: Arial, sans-serif; 
 	display: inline-block; 
-    margin: 0 10px;
+    margin: 0 12px;
+	flex-direction: column;
+
 }
 
 a {
 	text-decoration: none;
 	color: #000;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.2rem;
 }
 
 
@@ -49,10 +53,6 @@ section {
     display: flex;
 	margin-top: 5%;
 	margin-left: 23%;
-	
-	
-	
-
 }
 
 .sobre {
@@ -69,6 +69,7 @@ section {
     text-align: center;
     margin: 0 -10px; 
 	font-family: 'Roboto Slab', serif;
+	font-size: 1.2rem;
 }
 
 img{
